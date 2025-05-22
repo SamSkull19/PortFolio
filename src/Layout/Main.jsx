@@ -1,10 +1,15 @@
 import { Outlet } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const Main = () => {
     return (
-        <div>
-            <Outlet></Outlet>
+        <div className='relative z-0 bg-primary'>
+            <Navbar />
+            <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+                <Outlet />
+            </div>
         </div>
+
     );
 };
 
