@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import logoMyName from "./logoMyName.png";
+import herobg2 from "./herobg2.png";
 
 
 export {
@@ -61,5 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  logoMyName
+  logoMyName,
+  herobg2
 };
